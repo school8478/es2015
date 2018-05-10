@@ -5,7 +5,8 @@ function addContact(name, mobile) {
     var address = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : "없음";
     var email = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : "없음";
 
-    var str = "name=${name}, mobile=${mobile}, home=${home}, address=${address}, email=${email}";
+    //const str = `name=${name}, mobile=${mobile}, home=${home}, address=${address}, email=${email}`; 
+    var str = "name=" + name + ", mobile=" + mobile + ", home=" + home + ", address=" + address + ", email=" + email;
     console.log(str);
 };
 addContact("홍길동", "010-222-3331");
