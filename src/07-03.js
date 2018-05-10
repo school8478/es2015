@@ -1,3 +1,4 @@
+/* 기본 파라미터 */
 function addContact(name, mobile, home="없음", address="없음", email="없음") {
     //const str = `name=${name}, mobile=${mobile}, home=${home}, address=${address}, email=${email}`; 
     var str = `name=${name}, mobile=${mobile}, home=${home}, address=${address}, email=${email}`;

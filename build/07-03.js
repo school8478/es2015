@@ -1,5 +1,6 @@
 "use strict";
 
+/* 기본 파라미터 */
 function addContact(name, mobile) {
     var home = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : "없음";
     var address = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : "없음";
