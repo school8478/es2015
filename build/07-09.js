@@ -1,0 +1,12 @@
+"use strict";
+
+/* 새로운 객체 리터럴 */
+
+var name = "홍길동";
+var age = 20;
+var email = "gdhong@test.com";
+
+//var obj = {name:name, age:age, email:email};
+var obj = { name: name, age: age, email: email };
+
+console.log(obj);
