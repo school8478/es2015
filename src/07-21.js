@@ -18,4 +18,4 @@ p.then(function(num) {
 });
 
 console.log("20까지의 난수중 홀수/짝수?");
-console.log("결과는 2초후에 나옵니다.!!!!!!")
+console.log("결과는 2초후에 나옵니다.!!")
